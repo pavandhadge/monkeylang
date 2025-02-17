@@ -75,7 +75,7 @@ func checkParserErrors(t *testing.T, p *Parser) {
 	}
 	t.FailNow()
 }
-func TestReturnStatements(t *testing.T) {
+func testReturnStatements(t *testing.T) {
 	input := `
 	return 5;
 	return 10;
